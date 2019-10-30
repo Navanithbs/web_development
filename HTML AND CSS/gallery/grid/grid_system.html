@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>grid</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style type="text/css">
+        .yellow{
+            background:yellow;
+            border: 10px solid black;
+        }
+        .pink{
+            background:pink;
+            border: 10px solid black;
+            width=10px;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-xs-12 yellow">col3</div>
+                <div class="col-lg-3 col-md-6 col-xs-12 yellow">col4</div> 
+                <div class="col-lg-3 col-md-6 col-xs-12 yellow">col3</div>
+                <div class="col-lg-3 col-md-6 col-xs-12 yellow">col3</div>
+            </div>   
+            <div class="row">
+                    <div class="col-lg-3 col-md-6 col-xs-12 pink">
+                        <!--nested grid-->
+                            <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col</div>
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col</div> 
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col</div>
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col</div>
+                                </div>   
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12 pink">col4</div> 
+                    <div class="col-lg-3 col-md-6 col-xs-12 pink">col3</div>
+                    <div class="col-lg-3 col-md-6 col-xs-12 pink">
+                            <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col3</div>
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col4</div> 
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col3</div>
+                                    <div class="col-lg-3 col-md-6 col-xs-12 yellow">col3</div>
+                                </div>   
+                    </div>
+                </div>   
+    </div>
+    </body>
+</html>     

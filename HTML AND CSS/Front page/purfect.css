@@ -1,0 +1,24 @@
+.content{
+    text-align: center;
+    padding: 25%;
+}
+body{
+    background:url(https://www.hdwallpaperslife.com/wp-content/uploads/2017/05/dog_cat_friendship_caring_hugs_65057_5616x3744.jpg);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    
+}
+h1{
+    font-weight: 900;
+    font-size: 5em;
+}
+h1.h3{
+    color: white;
+}
+html{
+    height: 100%;
+
+}
+hr{
+    width: 400px;
+}

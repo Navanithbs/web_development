@@ -1,0 +1,47 @@
+body{
+    background:#f5d9d5;
+    font-family: 'Be Vietnam', sans-serif;
+
+}
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+    
+}
+#mainNavbar .nav-link{
+    color:white;
+    
+}
+#mainNavbar .nav-link:hover{
+    color:blue;
+    
+}
+
+#mainNavbar{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+#xyz span{
+    color:#ea1c2c;
+}
+h2{
+    font-weight:100;
+    font-size:4rem;
+    color:#ea1c2c;
+}
+@media (max-width:1200px) {
+    #xyz h2{
+        font-weight:100 ;
+        font-size:3rem;
+    }
+
+}
+p{
+    color: #f498b8;
+    line-height:2;
+}
+.content{
+    margin-top: 100px;
+}
+.navbar.scrolled{
+    background: rgb(199, 146, 199);
+}

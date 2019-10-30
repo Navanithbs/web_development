@@ -1,0 +1,22 @@
+    div{
+    text-align: left;
+    text-transform: uppercase;
+    color: blue;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+    
+}
+body{
+    padding: 30px;
+   border: 20px solid grey;
+   width:80%;
+   margin:20px auto;
+   font-family:Source Sans Pro;
+}
+h1{
+    font-size: 3.0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fp{
+    border-left: 3px solid gray;
+}

@@ -1,0 +1,50 @@
+body
+{
+    background-color: black;
+    margin: 0;
+}
+.square
+{
+    width: 30%;
+    background:purple;
+    padding-bottom:30%;
+    margin:1.66%;
+    float:left;
+    border-radius: 15%;
+    transition: background 2.0s;
+}
+#container
+{
+    margin: 20 auto;
+    max-width: 600px;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    height: 150px;
+    text-transform: uppercase;
+}
+#strap{
+    background-color: aliceblue;
+    height: 40px;
+    text-align: center;
+}
+.select
+{
+    background: aquamarine;
+}
+button{
+    height: 100%;
+    font-style: initial;
+    font-weight: 800;
+    background: none;
+}
+#disp{
+    display:inline-block;
+    width: 20%;
+}
+button:hover{
+    color:aquamarine;
+    background: black;
+}
