@@ -1,0 +1,17 @@
+<%- include ('partials/header.ejs') -%>
+    <div class="ui container segment">
+        <h1><strong><i class="book icon"></i> This is Blogs page...!!!</strong></h1>
+    </div>
+    <div class="ui container segment">
+        <% blog.forEach(function(blogs){%>
+            <img src="<%=blogs.image%>">
+            <h3><%=blogs.title%></h3>
+            <p><%=blogs.created %></p>
+            <p><%=blogs.body.substring(0,150)%> . . .</p>
+            <a class="ui big black button" href="/blog/<%=blogs.id%>">More info...</a>  
+            <br><br>
+            <hr>
+    <% })%> 
+    </div>
+    
+<%- include ('partials/footer.ejs') -%>

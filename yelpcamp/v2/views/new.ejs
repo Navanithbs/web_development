@@ -1,0 +1,29 @@
+<%- include ('partials/header.ejs'); -%>
+<style>
+    .xyz{
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class=xyz><strong>Create a new Campground<i class="fas fa-campground"></i></strong></h1>
+        <strong class="xyz">---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</strong>
+    </div>
+    <div style="text-align:center">
+        <form action="/campground" method="post">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="image" placeholder="image-url">
+            </div>
+            <div class="form-group">
+                <input type="text" name="desc" placeholder="description">
+            </div>
+            <button style="width:250px ;" class="btn btn-md btn-primary">Submit</button>
+        <br>    
+        <a href="/campground">Goback</a>
+        </form> 
+    </div>
+</div>
+<%- include ('partials/footer.ejs'); -%>

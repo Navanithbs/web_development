@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script language="JavaScript">
+            var c=0,t1;
+            function start()
+            {
+                t1=window.setInterval("incr()",100);
+            }
+            function incr()
+            {
+                c=c+1;
+                t.innerHTML="TEXT-GROWING :"+c+"PT";
+                t.style.fontSize=c+"pt";
+                t.style.color="red";
+                if(c>50)
+                {
+                    window.clearTimeout(t1);
+                    alert("font is now 50pt now text starts shrinking");
+                    t1=window.setInterval("decr()",100);
+                }
+            }
+            function decr()
+            {
+                c=c-1;
+                t.innerHTML="TEXT-SHRINKING :"+c+"PT";
+                t.style.fontSize=c+"pt";
+                t.style.color="blue";
+                if(c==5)
+                {
+                    window.clearTimeout(t1);
+                }
+            }
+        </script>
+    </head>
+    <body bgcolor="orange" onload="start()">
+        <center>
+            <p id="t"></p>
+        </center>
+    </body>
+</html>

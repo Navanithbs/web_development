@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            table, td, th
+            {
+            border: 1px solid black;
+            width: 33%;
+            text-align: center;
+            background-color: DarkGray;
+            border-collapse:collapse;
+            }
+            table { margin: auto; }
+            input { text-align:right; }
+        </style>
+        <script>
+            function calc(onclick)
+            {
+                var v1=parseFloat(document.getElementById("value1").value);
+                var v2=parseFloat(document.getElementById("value2").value);
+                if(isNaN(v1||v2))
+                {
+                    alert("Enter valid number!!!!!!!");
+                }
+                else{
+                    if(onclick=="add")
+                    {
+                        document.getElementById("answer").value=v1+v2;
+                    }
+                    else if(onclick=="sub")
+                    {
+                        document.getElementById("answer").value=v1-v2;
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr><th colspan="4">Simple Calculator</th></tr>
+            <tr>
+                <td>Value1</td><td><input type="text" id="value1" value="0"></td>
+                <td>Value2</td><td><input type="text" id="value2" value="0"></td>
+            </tr>
+            <tr><td><input type="button" id="add" value="add" onclick=calc(this.id)></td>
+                <td><input type="button" id="sub" value="sub" onclick=calc(this.id)></td>
+            </tr>
+            <tr>
+                <td>Answer:</td>
+                <td><input type="text" id="answer" value=""disabled/></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+        <student>
+        <sname>ABCD</sname>
+        <usn>1AM15CS001</usn>
+        <college>AMCEC</college>
+        <branch>ISE</branch>
+        <yoj>2015</yoj>
+        <email>abcd@xyz.com</email>
+        </student>
+
+        <student>
+        <sname>qwerty</sname>
+        <usn>1AM15CS002</usn>
+        <college>AMCEC</college>
+        <branch>ISE</branch>
+        <yoj>2015</yoj>
+        <email>qwerty@xyz.com</email>
+        </student>
+        
+        <student>
+        <sname>PQRS</sname>
+        <usn>1AM15CS003</usn>
+        <college>AMCEC</college>
+        <branch>ISE</branch>
+        <yoj>2015</yoj>
+        <email>pqrs@xyz.com</email>
+        </student>
+</students>

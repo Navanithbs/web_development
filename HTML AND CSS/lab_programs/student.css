@@ -1,0 +1,77 @@
+students{
+        background-color: bisque;
+        font-family: cursive;
+        display: block;
+        margin-left: 0;
+        margin-bottom: 20pt;
+}
+
+sname{
+        color: blue;
+        font-size: 14pt;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+}
+usn:before{
+        content: "usn :";
+        font-weight: bold;
+}
+college{
+        color: blueviolet;
+        font-size: 14pt;
+        display: block;
+        text-transform: uppercase;
+        margin-left: 20pt;
+
+}
+college:before{
+        content: "college :";
+        font-weight: bold;
+}
+usn{
+        color: blueviolet;
+        font-size: 14pt;
+        display: block;
+        text-transform: uppercase;
+        margin-left: 20pt;
+
+}
+email:before{
+        content: "email :";
+        font-weight: bold;
+}
+email{
+        color: blueviolet;
+        font-size: 14pt;
+        display: block;
+        text-transform: uppercase;
+        margin-left: 20pt;
+
+
+}
+branch:before{
+        content: "branch : ";
+        font-weight: bold;
+}
+branch{
+        color: blueviolet;
+        font-size: 14pt;
+        display: block;
+        text-transform: uppercase;
+        margin-left: 20pt;
+
+
+}yoj:before{
+        content: "yoj :";
+        font-weight: bold;
+}
+yoj{
+        color: blueviolet;
+        font-size: 14pt;
+        display: block;
+        text-transform: uppercase;
+        margin-left: 20pt;
+
+
+}

@@ -1,9 +1,7 @@
 var body = document.querySelector("body");
 var isblue=false;
 
-setInterval(
-function()
-{
+setInterval(function(){
     if(isblue)
     {body.style.background = "white";}
     else

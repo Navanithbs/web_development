@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>proj1</title>
+        <style>
+        .xyz{
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides w3-animate-fading" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTadm4aGxq3F_BhauvM4CrE5Vv62NXQWojKjw&usqp=CAU">
+            <img class="mySlides w3-animate-fading" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3JS16Mg6Q-mG8mJejRiP2jfvrE_EDkq1OBQ&usqp=CAU">
+            <img class="mySlides w3-animate-fading" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTDghYHlDTaeb6oc3kCpcDAcnXaglePFWNPOQ&usqp=CAU">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() 
+            {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) 
+              {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) 
+              {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+            </script>
+
+            
+    </body>
+</html>
